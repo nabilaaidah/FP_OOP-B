@@ -14,114 +14,137 @@ NRP   : 5025211032
 ===Berikut merupakan beberapa contoh dari daftar materi OOP yang terdapat di FP yang telah saya buat/modifikasi===
 
 
+
 ```
 Casting/Conversion
 Lokasi File: class GamePlay > method inputScoreMain
+```
 https://github.com/nabilaaidah/FP_OOP-B/blob/2b328c0b3721ad5310e21e6174db7a15057084df/FinalProjectPBO2022/src/main/java/FinalProjectPBO/GamePlay.java
 
 
-
+```
 Constructor
 Lokasi File: class MainMenu > constructor MainMenu
+```
 https://github.com/nabilaaidah/FP_OOP-B/blob/2b328c0b3721ad5310e21e6174db7a15057084df/FinalProjectPBO2022/src/main/java/FinalProjectPBO/MainMenu.java
 
 
-
+```
 Overloading
 Lokasi File: class Scoreboard > method setObj(String) & setObj(int)
+```
 https://github.com/nabilaaidah/FP_OOP-B/blob/2b328c0b3721ad5310e21e6174db7a15057084df/FinalProjectPBO2022/src/main/java/FinalProjectPBO/Scoreboard.java
 
 
-
+```
 Overriding
 Lokasi file: class TextFormatFile > method getEndformat() -> Parent
 class Storyboard > method getEndformat() -> Child
 class Instructions > method getEndformat() -> Child
+```
 https://github.com/nabilaaidah/FP_OOP-B/blob/2b328c0b3721ad5310e21e6174db7a15057084df/FinalProjectPBO2022/src/main/java/FinalProjectPBO/TextFormatFile.java
 https://github.com/nabilaaidah/FP_OOP-B/blob/2b328c0b3721ad5310e21e6174db7a15057084df/FinalProjectPBO2022/src/main/java/FinalProjectPBO/Storyboard.java
 https://github.com/nabilaaidah/FP_OOP-B/blob/2b328c0b3721ad5310e21e6174db7a15057084df/FinalProjectPBO2022/src/main/java/FinalProjectPBO/Instructions.java
 
 
-
+```
 Encapsulation
 Lokasi file: class TextFormatFile > get & set
 class Storyboard > get & set
 class Instructions > get & set
+```
 https://github.com/nabilaaidah/FP_OOP-B/blob/2b328c0b3721ad5310e21e6174db7a15057084df/FinalProjectPBO2022/src/main/java/FinalProjectPBO/TextFormatFile.java
 https://github.com/nabilaaidah/FP_OOP-B/blob/2b328c0b3721ad5310e21e6174db7a15057084df/FinalProjectPBO2022/src/main/java/FinalProjectPBO/TextFormatFile.java
 
 
+```
 Inheritance
 class TextFormatFile ke class Instructions, Storyboard
+```
 https://github.com/nabilaaidah/FP_OOP-B/blob/2b328c0b3721ad5310e21e6174db7a15057084df/FinalProjectPBO2022/src/main/java/FinalProjectPBO/Storyboard.java
 
 
+```
 Polymorphism
 Polymorphism yang dipakai adalah overriding dan overloading
-
+```
+```
 Lokasi overloading: class Scoreboard > method setObj(String) & setObj(int)
+```
 https://github.com/nabilaaidah/FP_OOP-B/blob/2b328c0b3721ad5310e21e6174db7a15057084df/FinalProjectPBO2022/src/main/java/FinalProjectPBO/Scoreboard.java
-
+```
 Lokasi overriding: class TextFormatFile > method getEndformat() -> Parent
 class Storyboard > method getEndformat() -> Child
 class Instructions > method getEndformat() -> Child
+```
 https://github.com/nabilaaidah/FP_OOP-B/blob/2b328c0b3721ad5310e21e6174db7a15057084df/FinalProjectPBO2022/src/main/java/FinalProjectPBO/TextFormatFile.java
 https://github.com/nabilaaidah/FP_OOP-B/blob/2b328c0b3721ad5310e21e6174db7a15057084df/FinalProjectPBO2022/src/main/java/FinalProjectPBO/Storyboard.java
 https://github.com/nabilaaidah/FP_OOP-B/blob/2b328c0b3721ad5310e21e6174db7a15057084df/FinalProjectPBO2022/src/main/java/FinalProjectPBO/Instructions.java
 
 
-
+```
 ArrayList
 Lokasi file: class GamePlay > private ArrayList<Scoreboard> sb = new ArrayList<Scoreboard>();
 class GamePlay > method outputScoreMain
+```
 https://github.com/nabilaaidah/FP_OOP-B/blob/2b328c0b3721ad5310e21e6174db7a15057084df/FinalProjectPBO2022/src/main/java/FinalProjectPBO/GamePlay.java
 https://github.com/nabilaaidah/FP_OOP-B/blob/2b328c0b3721ad5310e21e6174db7a15057084df/FinalProjectPBO2022/src/main/java/FinalProjectPBO/GamePlay.java
 
 
+```
 Exception Handling
 Lokasi file: class GamePlay > inputScoreMain
 class GamePlay > outputScoreMain
+```
 https://github.com/nabilaaidah/FP_OOP-B/blob/2b328c0b3721ad5310e21e6174db7a15057084df/FinalProjectPBO2022/src/main/java/FinalProjectPBO/GamePlay.java
 https://github.com/nabilaaidah/FP_OOP-B/blob/2b328c0b3721ad5310e21e6174db7a15057084df/FinalProjectPBO2022/src/main/java/FinalProjectPBO/GamePlay.java
 
 
-
+```
 GUI
 Lokasi file: class MainMenu
+```
 https://github.com/nabilaaidah/FP_OOP-B/blob/2b328c0b3721ad5310e21e6174db7a15057084df/FinalProjectPBO2022/src/main/java/FinalProjectPBO/MainMenu.java
 
 
+```
 Interface
 Lokasi file: class InterfaceTextFormatFile
+```
 https://github.com/nabilaaidah/FP_OOP-B/blob/2b328c0b3721ad5310e21e6174db7a15057084df/FinalProjectPBO2022/src/main/java/FinalProjectPBO/InterfaceTextFormatFile.java
 https://github.com/nabilaaidah/FP_OOP-B/blob/2b328c0b3721ad5310e21e6174db7a15057084df/FinalProjectPBO2022/src/main/java/FinalProjectPBO/Instructions.java
 
 
-
+```
 Abstract Class
 Lokasi file: class TextFormatFile
+```
 https://github.com/nabilaaidah/FP_OOP-B/blob/2b328c0b3721ad5310e21e6174db7a15057084df/FinalProjectPBO2022/src/main/java/FinalProjectPBO/TextFormatFile.java
 
 
-
+```
 Generics
 Lokasi file: class GenericClass
+```
 https://github.com/nabilaaidah/FP_OOP-B/blob/2b328c0b3721ad5310e21e6174db7a15057084df/FinalProjectPBO2022/src/main/java/FinalProjectPBO/GenericClass.java
 https://github.com/nabilaaidah/FP_OOP-B/blob/2b328c0b3721ad5310e21e6174db7a15057084df/FinalProjectPBO2022/src/main/java/FinalProjectPBO/TextFormatFile.java
 
 
-
+```
 Collection (Salah satu collection yang dipakai adalah ArrayList)
 Lokasi file: class GamePlay > private ArrayList<Scoreboard> sb = new ArrayList<Scoreboard>();
 class GamePlay > method outputScoreMain
+```
 https://github.com/nabilaaidah/FP_OOP-B/blob/2b328c0b3721ad5310e21e6174db7a15057084df/FinalProjectPBO2022/src/main/java/FinalProjectPBO/GamePlay.java
 https://github.com/nabilaaidah/FP_OOP-B/blob/2b328c0b3721ad5310e21e6174db7a15057084df/FinalProjectPBO2022/src/main/java/FinalProjectPBO/GamePlay.java
 
 
+```
 Input Output
 Lokasi file: class GamePlay > method inputScoreMain & method outputScoreMain
-https://github.com/nabilaaidah/FP_OOP-B/blob/2b328c0b3721ad5310e21e6174db7a15057084df/FinalProjectPBO2022/src/main/java/FinalProjectPBO/GamePlay.java
 ```
+https://github.com/nabilaaidah/FP_OOP-B/blob/2b328c0b3721ad5310e21e6174db7a15057084df/FinalProjectPBO2022/src/main/java/FinalProjectPBO/GamePlay.java
+
 
 
 
