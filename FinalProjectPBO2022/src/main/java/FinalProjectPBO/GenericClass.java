@@ -4,20 +4,19 @@
  */
 package FinalProjectPBO;
 
-import java.util.Comparator;
-
 /**
  *
  * @author NABILA
  */
-public class SortingSc implements Comparator<Scoreboard>{
-
-    @Override
-    public int compare(Scoreboard o1, Scoreboard o2) {
-       
-        return (int) (o2.getScore() - o1.getScore());
-        
-        
+class GenericClass<T> {
+    private T data;
+    
+    public GenericClass(T data){
+        this.data = data;
+    }
+    
+    public T getData(){
+        return this.data;
     }
     
 }

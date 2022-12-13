@@ -4,10 +4,13 @@
  */
 package FinalProjectPBO;
 
+import javax.swing.JList;
+
 /**
  *
  * @author NABILA
  */
-public enum Heading {
-    RIGHT, UP, DOWN, LEFT;
+interface InterfaceTextFormatFile {
+    public String[] getInstruct();
+    public JList<String> mainInstruct();
 }

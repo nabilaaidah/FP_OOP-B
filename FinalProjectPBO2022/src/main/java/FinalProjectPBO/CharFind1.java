@@ -17,8 +17,8 @@ import javax.imageio.ImageIO;
 public class CharFind1 extends CharsTools{
     public static final int posX = 425;
     public static final int posY = 275;
-    private static final String IMG_FRIGHT = "C:\\Users\\NABILA\\Documents\\NetBeansProjects\\FP_OOP-B\\Game\\extendfiles\\frightened.png";
-    private static final String IMG_NORMAL = "C:\\Users\\NABILA\\Documents\\kuliah sem 3\\PBO\\Pacman\\img\\ghost.gif";
+    private static final String IMG_FRIGHT = "C:\\Users\\NABILA\\Documents\\NetBeansProjects\\FP_OOP-B\\FinalProjectPBO2022\\src\\main\\java\\ExtendedFiles\\pngkit_pixel-mouse-png_3984980.png";
+    private static final String IMG_NORMAL = "C:\\Users\\NABILA\\Documents\\NetBeansProjects\\FP_OOP-B\\FinalProjectPBO2022\\src\\main\\java\\ExtendedFiles\\pngkit_pixel-mouse-png_3984980.png";
     private int row = 11;
     private int col = 17;
     private static BufferedImage imgNormal;

@@ -6,15 +6,23 @@ package FinalProjectPBO;
 
 import java.awt.Color;
 import java.awt.Graphics;
+import java.awt.image.BufferedImage;
+import java.awt.image.ImageObserver;
+import java.io.File;
+import java.io.IOException;
+import javax.imageio.ImageIO;
 
 /**
  *
  * @author NABILA
  */
+@SuppressWarnings("unchecked")
 public class MapMaze extends InitTools{
-    private static int sz_Block;
-    private static int n_Block;
-    private static final int sz = n_Block * sz_Block;
+    private static int dim_Block;
+    private static int num_Block;
+    private final static String IMG = "C:\\Users\\NABILA\\Documents\\NetBeansProjects\\FP_OOP-B\\FinalProjectPBO2022\\src\\main\\java\\ExtendedFiles\\brick.jpg";
+    private static BufferedImage img;
+    private static final int sz = num_Block * dim_Block;
     private static char[][] map =
     {
             {'w','w','w','w','w','w','w','w','w','w','w','w','w','w','w','w','w','w','w'},
@@ -40,8 +48,14 @@ public class MapMaze extends InitTools{
     
     public MapMaze(int sz_Block, int n_Block, int mapWidth, int mapHeight){
         super(0, 0, 0, 0, sz, sz, mapWidth, mapHeight);
-        this.sz_Block = sz_Block;
-        this.n_Block = n_Block;
+        dim_Block = sz_Block;
+        num_Block = n_Block;
+        try{
+            if(img == null) img = ImageIO.read(new File(IMG));
+        }
+        catch (IOException e){
+            System.out.println(e);
+        }
     }
     
     public static char[][] getMap(){
@@ -52,21 +66,23 @@ public class MapMaze extends InitTools{
     public void draw(Graphics g) {
         for(int i = 0; i < map.length; i++){
             for(int j = 0; j < map[0].length; j++){
-                if(map[j][i] == 'w'){
-                    g.setColor(Color.BLUE);
-                    g.fillRect(i * sz_Block, j * sz_Block, sz_Block, sz_Block);
-                }
-                else if(map[j][i] == 's'){
-                    g.setColor(Color.WHITE);
-                    g.fillOval(i * sz_Block + 12, j * sz_Block + 12, 5, 5);
-                }
-                else if(map[j][i] == 'p'){
-                    g.setColor(Color.WHITE);
-                    g.fillOval(i * sz_Block + 8, j * sz_Block + 8, 11, 11);
+                switch (map[j][i]) {
+                    case 'w':
+                        g.drawImage(img,i * dim_Block, j * dim_Block, dim_Block, dim_Block, null);
+                        break;
+                    case 's':
+                        g.setColor(Color.WHITE);
+                        g.fillOval(i * dim_Block + 12, j * dim_Block + 12, 5, 5);
+                        break;
+                    case 'p':
+                        g.setColor(Color.WHITE);
+                        g.fillOval(i * dim_Block + 8, j * dim_Block + 8, 11, 11);
+                        break;
+                    default:
+                        break;
                 }
             }
-        }
-         // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        }  
     }
     
     public void resetMap(){

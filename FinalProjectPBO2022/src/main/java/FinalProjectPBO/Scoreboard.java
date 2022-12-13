@@ -11,14 +11,23 @@ import java.util.Comparator;
  * @author NABILA
  */
 public class Scoreboard{
-    private int score;
+    private double score;
     public String name;
-    public Scoreboard(int sc, String n){
+    
+    public void setObj(String s){
+        this.name = s;
+    }
+    
+    public void setObj(int n){
+        this.score = n;
+    }
+    
+    public Scoreboard(double sc, String n){
         this.name = n;
         this.score = sc;
     }
     
-    public int getScore(){
+    public double getScore(){
         return this.score;
     }
     

@@ -23,11 +23,11 @@ public class Char extends InitTools{
     
     private int row = 9;
     private int col = 9;
-    private int score = 0;
+    private double score = 0;
     private int lives = 3;
     private String dir = "LEFT";
     private static BufferedImage chara;
-    public static final String IMG = "C:\\Users\\NABILA\\Documents\\NetBeansProjects\\FinalProjectPBO2022\\extendfiles\\259-2598654_cat-pixel-art-png-download-simple-cat-pixel.png";
+    public static final String IMG = "C:\\Users\\NABILA\\Documents\\NetBeansProjects\\FP_OOP-B\\FinalProjectPBO2022\\src\\main\\java\\ExtendedFiles\\cat.png";
     private boolean frightened = false;
     
     public Char(int mapWidth, int mapHeight){
@@ -75,7 +75,7 @@ public class Char extends InitTools{
     
     public void eat(){
         if(MapMaze.getMap()[row][col] == 's'){
-            score++;
+            score += 0.5;
             MapMaze.getMap()[row][col] = 'e';
         }
         else if(MapMaze.getMap()[row][col] == 'p'){
@@ -122,7 +122,7 @@ public class Char extends InitTools{
         this.score += s;
     }
     
-    public int getScore(){
+    public double getScore(){
         return this.score;
     }
     
