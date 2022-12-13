@@ -11,7 +11,7 @@ NRP   : 5025211032
 
 
 
-===Berikut merupakan salah beberapa contoh dari daftar materi OOP yang terdapat di FP yang telah saya buat/modifikasi===
+===Berikut merupakan beberapa contoh dari daftar materi OOP yang terdapat di FP yang telah saya buat/modifikasi===
 
 
 ```
