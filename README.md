@@ -85,7 +85,8 @@ sendiri digunakan pada class GamePlay untuk melakukan input dan output score.
 Input Output
 Input dan output pada FP ini dapat ditemukan dalam melakukan penulisan dan dibacakannya skor.
 Method yang mewadahi input dan output ini dapat ditemukan di class GamePlay pada method
-inputScoreMain dan outputScoreMain```
+inputScoreMain dan outputScoreMain
+```
 
 
 
