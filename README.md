@@ -19,22 +19,22 @@ NRP   : 5025211032
 Casting/Conversion
 Lokasi File: class GamePlay > method inputScoreMain
 ```
-https://github.com/nabilaaidah/FP_OOP-B/blob/2b328c0b3721ad5310e21e6174db7a15057084df/FinalProjectPBO2022/src/main/java/FinalProjectPBO/GamePlay.java
+https://github.com/nabilaaidah/FP_OOP-B/blob/f99c3acafee635eca8f9cf7364147d7862cfd26b/FinalProjectPBO2022/src/main/java/FinalProjectPBO/GamePlay.java#L137
 
 
 ```
 Constructor
 Lokasi File: class MainMenu > constructor MainMenu
 ```
-https://github.com/nabilaaidah/FP_OOP-B/blob/2b328c0b3721ad5310e21e6174db7a15057084df/FinalProjectPBO2022/src/main/java/FinalProjectPBO/MainMenu.java
+https://github.com/nabilaaidah/FP_OOP-B/blob/f99c3acafee635eca8f9cf7364147d7862cfd26b/FinalProjectPBO2022/src/main/java/FinalProjectPBO/MainMenu.java#L35
 
 
 ```
 Overloading
 Lokasi File: class Scoreboard > method setObj(String) & setObj(int)
 ```
-https://github.com/nabilaaidah/FP_OOP-B/blob/2b328c0b3721ad5310e21e6174db7a15057084df/FinalProjectPBO2022/src/main/java/FinalProjectPBO/Scoreboard.java
-
+https://github.com/nabilaaidah/FP_OOP-B/blob/f99c3acafee635eca8f9cf7364147d7862cfd26b/FinalProjectPBO2022/src/main/java/FinalProjectPBO/Scoreboard.java#L17
+https://github.com/nabilaaidah/FP_OOP-B/blob/f99c3acafee635eca8f9cf7364147d7862cfd26b/FinalProjectPBO2022/src/main/java/FinalProjectPBO/Scoreboard.java#L21
 
 ```
 Overriding
@@ -42,9 +42,9 @@ Lokasi file: class TextFormatFile > method getEndformat() -> Parent
 class Storyboard > method getEndformat() -> Child
 class Instructions > method getEndformat() -> Child
 ```
-https://github.com/nabilaaidah/FP_OOP-B/blob/2b328c0b3721ad5310e21e6174db7a15057084df/FinalProjectPBO2022/src/main/java/FinalProjectPBO/TextFormatFile.java
-https://github.com/nabilaaidah/FP_OOP-B/blob/2b328c0b3721ad5310e21e6174db7a15057084df/FinalProjectPBO2022/src/main/java/FinalProjectPBO/Storyboard.java
-https://github.com/nabilaaidah/FP_OOP-B/blob/2b328c0b3721ad5310e21e6174db7a15057084df/FinalProjectPBO2022/src/main/java/FinalProjectPBO/Instructions.java
+https://github.com/nabilaaidah/FP_OOP-B/blob/f99c3acafee635eca8f9cf7364147d7862cfd26b/FinalProjectPBO2022/src/main/java/FinalProjectPBO/TextFormatFile.java#L37
+https://github.com/nabilaaidah/FP_OOP-B/blob/f99c3acafee635eca8f9cf7364147d7862cfd26b/FinalProjectPBO2022/src/main/java/FinalProjectPBO/Storyboard.java#L55
+https://github.com/nabilaaidah/FP_OOP-B/blob/f99c3acafee635eca8f9cf7364147d7862cfd26b/FinalProjectPBO2022/src/main/java/FinalProjectPBO/Instructions.java#L36
 
 
 ```
@@ -53,15 +53,16 @@ Lokasi file: class TextFormatFile > get & set
 class Storyboard > get & set
 class Instructions > get & set
 ```
-https://github.com/nabilaaidah/FP_OOP-B/blob/2b328c0b3721ad5310e21e6174db7a15057084df/FinalProjectPBO2022/src/main/java/FinalProjectPBO/TextFormatFile.java
-https://github.com/nabilaaidah/FP_OOP-B/blob/2b328c0b3721ad5310e21e6174db7a15057084df/FinalProjectPBO2022/src/main/java/FinalProjectPBO/TextFormatFile.java
+https://github.com/nabilaaidah/FP_OOP-B/blob/f99c3acafee635eca8f9cf7364147d7862cfd26b/FinalProjectPBO2022/src/main/java/FinalProjectPBO/Instructions.java#L28
+https://github.com/nabilaaidah/FP_OOP-B/blob/f99c3acafee635eca8f9cf7364147d7862cfd26b/FinalProjectPBO2022/src/main/java/FinalProjectPBO/Instructions.java#L32
 
 
 ```
 Inheritance
 class TextFormatFile ke class Instructions, Storyboard
 ```
-https://github.com/nabilaaidah/FP_OOP-B/blob/2b328c0b3721ad5310e21e6174db7a15057084df/FinalProjectPBO2022/src/main/java/FinalProjectPBO/Storyboard.java
+https://github.com/nabilaaidah/FP_OOP-B/blob/f99c3acafee635eca8f9cf7364147d7862cfd26b/FinalProjectPBO2022/src/main/java/FinalProjectPBO/Instructions.java#L15
+https://github.com/nabilaaidah/FP_OOP-B/blob/f99c3acafee635eca8f9cf7364147d7862cfd26b/FinalProjectPBO2022/src/main/java/FinalProjectPBO/Storyboard.java#L20
 
 
 ```
@@ -71,15 +72,16 @@ Polymorphism yang dipakai adalah overriding dan overloading
 ```
 Lokasi overloading: class Scoreboard > method setObj(String) & setObj(int)
 ```
-https://github.com/nabilaaidah/FP_OOP-B/blob/2b328c0b3721ad5310e21e6174db7a15057084df/FinalProjectPBO2022/src/main/java/FinalProjectPBO/Scoreboard.java
+https://github.com/nabilaaidah/FP_OOP-B/blob/f99c3acafee635eca8f9cf7364147d7862cfd26b/FinalProjectPBO2022/src/main/java/FinalProjectPBO/Scoreboard.java#L17
+https://github.com/nabilaaidah/FP_OOP-B/blob/f99c3acafee635eca8f9cf7364147d7862cfd26b/FinalProjectPBO2022/src/main/java/FinalProjectPBO/Scoreboard.java#L21
 ```
 Lokasi overriding: class TextFormatFile > method getEndformat() -> Parent
 class Storyboard > method getEndformat() -> Child
 class Instructions > method getEndformat() -> Child
 ```
-https://github.com/nabilaaidah/FP_OOP-B/blob/2b328c0b3721ad5310e21e6174db7a15057084df/FinalProjectPBO2022/src/main/java/FinalProjectPBO/TextFormatFile.java
-https://github.com/nabilaaidah/FP_OOP-B/blob/2b328c0b3721ad5310e21e6174db7a15057084df/FinalProjectPBO2022/src/main/java/FinalProjectPBO/Storyboard.java
-https://github.com/nabilaaidah/FP_OOP-B/blob/2b328c0b3721ad5310e21e6174db7a15057084df/FinalProjectPBO2022/src/main/java/FinalProjectPBO/Instructions.java
+https://github.com/nabilaaidah/FP_OOP-B/blob/f99c3acafee635eca8f9cf7364147d7862cfd26b/FinalProjectPBO2022/src/main/java/FinalProjectPBO/TextFormatFile.java#L37
+https://github.com/nabilaaidah/FP_OOP-B/blob/f99c3acafee635eca8f9cf7364147d7862cfd26b/FinalProjectPBO2022/src/main/java/FinalProjectPBO/Storyboard.java#L55
+https://github.com/nabilaaidah/FP_OOP-B/blob/f99c3acafee635eca8f9cf7364147d7862cfd26b/FinalProjectPBO2022/src/main/java/FinalProjectPBO/Instructions.java#L36
 
 
 ```
@@ -87,8 +89,8 @@ ArrayList
 Lokasi file: class GamePlay > private ArrayList<Scoreboard> sb = new ArrayList<Scoreboard>();
 class GamePlay > method outputScoreMain
 ```
-https://github.com/nabilaaidah/FP_OOP-B/blob/2b328c0b3721ad5310e21e6174db7a15057084df/FinalProjectPBO2022/src/main/java/FinalProjectPBO/GamePlay.java
-https://github.com/nabilaaidah/FP_OOP-B/blob/2b328c0b3721ad5310e21e6174db7a15057084df/FinalProjectPBO2022/src/main/java/FinalProjectPBO/GamePlay.java
+https://github.com/nabilaaidah/FP_OOP-B/blob/f99c3acafee635eca8f9cf7364147d7862cfd26b/FinalProjectPBO2022/src/main/java/FinalProjectPBO/GamePlay.java#L124
+https://github.com/nabilaaidah/FP_OOP-B/blob/f99c3acafee635eca8f9cf7364147d7862cfd26b/FinalProjectPBO2022/src/main/java/FinalProjectPBO/GamePlay.java#L154
 
 
 ```
@@ -96,38 +98,39 @@ Exception Handling
 Lokasi file: class GamePlay > inputScoreMain
 class GamePlay > outputScoreMain
 ```
-https://github.com/nabilaaidah/FP_OOP-B/blob/2b328c0b3721ad5310e21e6174db7a15057084df/FinalProjectPBO2022/src/main/java/FinalProjectPBO/GamePlay.java
-https://github.com/nabilaaidah/FP_OOP-B/blob/2b328c0b3721ad5310e21e6174db7a15057084df/FinalProjectPBO2022/src/main/java/FinalProjectPBO/GamePlay.java
+https://github.com/nabilaaidah/FP_OOP-B/blob/f99c3acafee635eca8f9cf7364147d7862cfd26b/FinalProjectPBO2022/src/main/java/FinalProjectPBO/GamePlay.java#L132
+https://github.com/nabilaaidah/FP_OOP-B/blob/f99c3acafee635eca8f9cf7364147d7862cfd26b/FinalProjectPBO2022/src/main/java/FinalProjectPBO/GamePlay.java#L156
 
 
 ```
 GUI
-Lokasi file: class MainMenu
+Lokasi file: class MainMenu (mayoritas GUI berada di Main Menu)
 ```
-https://github.com/nabilaaidah/FP_OOP-B/blob/2b328c0b3721ad5310e21e6174db7a15057084df/FinalProjectPBO2022/src/main/java/FinalProjectPBO/MainMenu.java
+https://github.com/nabilaaidah/FP_OOP-B/blob/f99c3acafee635eca8f9cf7364147d7862cfd26b/FinalProjectPBO2022/src/main/java/FinalProjectPBO/MainMenu.java#L31
 
 
 ```
 Interface
 Lokasi file: class InterfaceTextFormatFile
 ```
-https://github.com/nabilaaidah/FP_OOP-B/blob/2b328c0b3721ad5310e21e6174db7a15057084df/FinalProjectPBO2022/src/main/java/FinalProjectPBO/InterfaceTextFormatFile.java
-https://github.com/nabilaaidah/FP_OOP-B/blob/2b328c0b3721ad5310e21e6174db7a15057084df/FinalProjectPBO2022/src/main/java/FinalProjectPBO/Instructions.java
+https://github.com/nabilaaidah/FP_OOP-B/blob/f99c3acafee635eca8f9cf7364147d7862cfd26b/FinalProjectPBO2022/src/main/java/FinalProjectPBO/InterfaceTextFormatFile.java#L13
+https://github.com/nabilaaidah/FP_OOP-B/blob/f99c3acafee635eca8f9cf7364147d7862cfd26b/FinalProjectPBO2022/src/main/java/FinalProjectPBO/Storyboard.java#L20
+https://github.com/nabilaaidah/FP_OOP-B/blob/f99c3acafee635eca8f9cf7364147d7862cfd26b/FinalProjectPBO2022/src/main/java/FinalProjectPBO/Instructions.java#L15
 
 
 ```
 Abstract Class
 Lokasi file: class TextFormatFile
 ```
-https://github.com/nabilaaidah/FP_OOP-B/blob/2b328c0b3721ad5310e21e6174db7a15057084df/FinalProjectPBO2022/src/main/java/FinalProjectPBO/TextFormatFile.java
+https://github.com/nabilaaidah/FP_OOP-B/blob/f99c3acafee635eca8f9cf7364147d7862cfd26b/FinalProjectPBO2022/src/main/java/FinalProjectPBO/TextFormatFile.java#L15
 
 
 ```
 Generics
 Lokasi file: class GenericClass
 ```
-https://github.com/nabilaaidah/FP_OOP-B/blob/2b328c0b3721ad5310e21e6174db7a15057084df/FinalProjectPBO2022/src/main/java/FinalProjectPBO/GenericClass.java
-https://github.com/nabilaaidah/FP_OOP-B/blob/2b328c0b3721ad5310e21e6174db7a15057084df/FinalProjectPBO2022/src/main/java/FinalProjectPBO/TextFormatFile.java
+https://github.com/nabilaaidah/FP_OOP-B/blob/f99c3acafee635eca8f9cf7364147d7862cfd26b/FinalProjectPBO2022/src/main/java/FinalProjectPBO/GenericClass.java#L11
+https://github.com/nabilaaidah/FP_OOP-B/blob/f99c3acafee635eca8f9cf7364147d7862cfd26b/FinalProjectPBO2022/src/main/java/FinalProjectPBO/TextFormatFile.java#L35
 
 
 ```
@@ -135,15 +138,16 @@ Collection (Salah satu collection yang dipakai adalah ArrayList)
 Lokasi file: class GamePlay > private ArrayList<Scoreboard> sb = new ArrayList<Scoreboard>();
 class GamePlay > method outputScoreMain
 ```
-https://github.com/nabilaaidah/FP_OOP-B/blob/2b328c0b3721ad5310e21e6174db7a15057084df/FinalProjectPBO2022/src/main/java/FinalProjectPBO/GamePlay.java
-https://github.com/nabilaaidah/FP_OOP-B/blob/2b328c0b3721ad5310e21e6174db7a15057084df/FinalProjectPBO2022/src/main/java/FinalProjectPBO/GamePlay.java
+https://github.com/nabilaaidah/FP_OOP-B/blob/f99c3acafee635eca8f9cf7364147d7862cfd26b/FinalProjectPBO2022/src/main/java/FinalProjectPBO/GamePlay.java#L124
+https://github.com/nabilaaidah/FP_OOP-B/blob/f99c3acafee635eca8f9cf7364147d7862cfd26b/FinalProjectPBO2022/src/main/java/FinalProjectPBO/GamePlay.java#L154
 
 
 ```
 Input Output
 Lokasi file: class GamePlay > method inputScoreMain & method outputScoreMain
 ```
-https://github.com/nabilaaidah/FP_OOP-B/blob/2b328c0b3721ad5310e21e6174db7a15057084df/FinalProjectPBO2022/src/main/java/FinalProjectPBO/GamePlay.java
+https://github.com/nabilaaidah/FP_OOP-B/blob/f99c3acafee635eca8f9cf7364147d7862cfd26b/FinalProjectPBO2022/src/main/java/FinalProjectPBO/GamePlay.java#L134
+https://github.com/nabilaaidah/FP_OOP-B/blob/f99c3acafee635eca8f9cf7364147d7862cfd26b/FinalProjectPBO2022/src/main/java/FinalProjectPBO/GamePlay.java#L158
 
 
 
