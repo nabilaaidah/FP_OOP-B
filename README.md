@@ -111,3 +111,6 @@ inputScoreMain dan outputScoreMain
 2. Cat: https://www.pngitem.com/pimgs/m/259-2598654_cat-pixel-art-png-download-simple-cat-pixel.png
 3. Brick: https://i.pinimg.com/564x/ce/ef/5b/ceef5b4e92d1cc73e0468e495b70c131.jpg
 ```
+
+
+Rekaman : https://youtu.be/p6xHEU4Wuuk
