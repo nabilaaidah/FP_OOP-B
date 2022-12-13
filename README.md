@@ -16,77 +16,111 @@ NRP   : 5025211032
 
 ```
 Casting/Conversion
-Pada class GamePlay dan di dalam method inputScoreMain, terdapat casting data score dari
-yang awalnya bertipekan data double menjadi integer, casting ini dilakukan dengan menambahkan
-(int) di depan getScore
+Lokasi File: class GamePlay > method inputScoreMain
+https://github.com/nabilaaidah/FP_OOP-B/blob/2b328c0b3721ad5310e21e6174db7a15057084df/FinalProjectPBO2022/src/main/java/FinalProjectPBO/GamePlay.java
+
 
 
 Constructor
-Pada class MainMenu, terdapat constructor yang berisikan fitur2 untuk Main Menu
+Lokasi File: class MainMenu > constructor MainMenu
+https://github.com/nabilaaidah/FP_OOP-B/blob/2b328c0b3721ad5310e21e6174db7a15057084df/FinalProjectPBO2022/src/main/java/FinalProjectPBO/MainMenu.java
+
 
 
 Overloading
-Pada class Scoreboard, terdapat dua method setObj, dengan method pertama memiliki parameter string
-dan method kedua memiliki paramater integer 
+Lokasi File: class Scoreboard > method setObj(String) & setObj(int)
+https://github.com/nabilaaidah/FP_OOP-B/blob/2b328c0b3721ad5310e21e6174db7a15057084df/FinalProjectPBO2022/src/main/java/FinalProjectPBO/Scoreboard.java
+
 
 
 Overriding
-Pada class Storyboad dan Instruction, terdapat method getEndformat() yang merupakan overriding
-dari method parentnya, yaitu TextFormatFile
+Lokasi file: class TextFormatFile > method getEndformat() -> Parent
+class Storyboard > method getEndformat() -> Child
+class Instructions > method getEndformat() -> Child
+https://github.com/nabilaaidah/FP_OOP-B/blob/2b328c0b3721ad5310e21e6174db7a15057084df/FinalProjectPBO2022/src/main/java/FinalProjectPBO/TextFormatFile.java
+https://github.com/nabilaaidah/FP_OOP-B/blob/2b328c0b3721ad5310e21e6174db7a15057084df/FinalProjectPBO2022/src/main/java/FinalProjectPBO/Storyboard.java
+https://github.com/nabilaaidah/FP_OOP-B/blob/2b328c0b3721ad5310e21e6174db7a15057084df/FinalProjectPBO2022/src/main/java/FinalProjectPBO/Instructions.java
+
 
 
 Encapsulation
-Terdapat set dan get tipe data private di dalam class Instructions, Storyboard, dan TextFormatFile
+Lokasi file: class TextFormatFile > get & set
+class Storyboard > get & set
+class Instructions > get & set
+https://github.com/nabilaaidah/FP_OOP-B/blob/2b328c0b3721ad5310e21e6174db7a15057084df/FinalProjectPBO2022/src/main/java/FinalProjectPBO/TextFormatFile.java
+https://github.com/nabilaaidah/FP_OOP-B/blob/2b328c0b3721ad5310e21e6174db7a15057084df/FinalProjectPBO2022/src/main/java/FinalProjectPBO/TextFormatFile.java
 
 
 Inheritance
-Terdapat inheritance dengan metode extend dari parent class, yaitu TextFormatFile, ke child class,
-yaitu Instructions dan Storyboard
+class TextFormatFile ke class Instructions, Storyboard
+https://github.com/nabilaaidah/FP_OOP-B/blob/2b328c0b3721ad5310e21e6174db7a15057084df/FinalProjectPBO2022/src/main/java/FinalProjectPBO/Storyboard.java
 
 
 Polymorphism
-Polymorphism yang digunakan pada FP ini adalah overloading dan overriding, peletakannya sendiri
-sama seperti yang telah dituliskan di penjelasan overloading dan overriding
+Polymorphism yang dipakai adalah overriding dan overloading
+
+Lokasi overloading: class Scoreboard > method setObj(String) & setObj(int)
+https://github.com/nabilaaidah/FP_OOP-B/blob/2b328c0b3721ad5310e21e6174db7a15057084df/FinalProjectPBO2022/src/main/java/FinalProjectPBO/Scoreboard.java
+
+Lokasi overriding: class TextFormatFile > method getEndformat() -> Parent
+class Storyboard > method getEndformat() -> Child
+class Instructions > method getEndformat() -> Child
+https://github.com/nabilaaidah/FP_OOP-B/blob/2b328c0b3721ad5310e21e6174db7a15057084df/FinalProjectPBO2022/src/main/java/FinalProjectPBO/TextFormatFile.java
+https://github.com/nabilaaidah/FP_OOP-B/blob/2b328c0b3721ad5310e21e6174db7a15057084df/FinalProjectPBO2022/src/main/java/FinalProjectPBO/Storyboard.java
+https://github.com/nabilaaidah/FP_OOP-B/blob/2b328c0b3721ad5310e21e6174db7a15057084df/FinalProjectPBO2022/src/main/java/FinalProjectPBO/Instructions.java
+
 
 
 ArrayList
-Pada class GamePlay, terdapat dua ArrayList. ArrayList pertama menghubungkan dengan class Scoreboard
-dan bertugas untuk menginput skor. ArrayList kedua bertugas untuk memprint out score
+Lokasi file: class GamePlay > private ArrayList<Scoreboard> sb = new ArrayList<Scoreboard>();
+class GamePlay > method outputScoreMain
+https://github.com/nabilaaidah/FP_OOP-B/blob/2b328c0b3721ad5310e21e6174db7a15057084df/FinalProjectPBO2022/src/main/java/FinalProjectPBO/GamePlay.java
+https://github.com/nabilaaidah/FP_OOP-B/blob/2b328c0b3721ad5310e21e6174db7a15057084df/FinalProjectPBO2022/src/main/java/FinalProjectPBO/GamePlay.java
 
 
 Exception Handling
-Exception handling dapat ditemukan pada class GamePlay, tepatnya pada method inputScoreMain dan
-outputScoreMain.
+Lokasi file: class GamePlay > inputScoreMain
+class GamePlay > outputScoreMain
+https://github.com/nabilaaidah/FP_OOP-B/blob/2b328c0b3721ad5310e21e6174db7a15057084df/FinalProjectPBO2022/src/main/java/FinalProjectPBO/GamePlay.java
+https://github.com/nabilaaidah/FP_OOP-B/blob/2b328c0b3721ad5310e21e6174db7a15057084df/FinalProjectPBO2022/src/main/java/FinalProjectPBO/GamePlay.java
+
 
 
 GUI
-Pada FP ini digunakan GUI. Unsur - unsur GUI banyak digunakan dalam membentuk Main Menu. Ini
-dapat dilihat pada class MainMenu
+Lokasi file: class MainMenu
+https://github.com/nabilaaidah/FP_OOP-B/blob/2b328c0b3721ad5310e21e6174db7a15057084df/FinalProjectPBO2022/src/main/java/FinalProjectPBO/MainMenu.java
 
 
 Interface
-Terdapat class InterfaceTextFormatFile yang merupakan interface bagi class Instructions dan
-Storyboard
+Lokasi file: class InterfaceTextFormatFile
+https://github.com/nabilaaidah/FP_OOP-B/blob/2b328c0b3721ad5310e21e6174db7a15057084df/FinalProjectPBO2022/src/main/java/FinalProjectPBO/InterfaceTextFormatFile.java
+https://github.com/nabilaaidah/FP_OOP-B/blob/2b328c0b3721ad5310e21e6174db7a15057084df/FinalProjectPBO2022/src/main/java/FinalProjectPBO/Instructions.java
+
 
 
 Abstract Class
-Tipe abstract class digunakan dalam membentuk class TextFormatFile
+Lokasi file: class TextFormatFile
+https://github.com/nabilaaidah/FP_OOP-B/blob/2b328c0b3721ad5310e21e6174db7a15057084df/FinalProjectPBO2022/src/main/java/FinalProjectPBO/TextFormatFile.java
+
 
 
 Generics
-Generics digunakan untuk menginput data yang terdapat di TextFormatFile. Generics sendiri
-dapat ditemukan di class GenericClass
+Lokasi file: class GenericClass
+https://github.com/nabilaaidah/FP_OOP-B/blob/2b328c0b3721ad5310e21e6174db7a15057084df/FinalProjectPBO2022/src/main/java/FinalProjectPBO/GenericClass.java
+https://github.com/nabilaaidah/FP_OOP-B/blob/2b328c0b3721ad5310e21e6174db7a15057084df/FinalProjectPBO2022/src/main/java/FinalProjectPBO/TextFormatFile.java
 
 
-Collection
-Pada unsur OOP collection, dapat ditemukan melalui adanya penggunakan ArrayList. ArrayList
-sendiri digunakan pada class GamePlay untuk melakukan input dan output score.
+
+Collection (Salah satu collection yang dipakai adalah ArrayList)
+Lokasi file: class GamePlay > private ArrayList<Scoreboard> sb = new ArrayList<Scoreboard>();
+class GamePlay > method outputScoreMain
+https://github.com/nabilaaidah/FP_OOP-B/blob/2b328c0b3721ad5310e21e6174db7a15057084df/FinalProjectPBO2022/src/main/java/FinalProjectPBO/GamePlay.java
+https://github.com/nabilaaidah/FP_OOP-B/blob/2b328c0b3721ad5310e21e6174db7a15057084df/FinalProjectPBO2022/src/main/java/FinalProjectPBO/GamePlay.java
 
 
 Input Output
-Input dan output pada FP ini dapat ditemukan dalam melakukan penulisan dan dibacakannya skor.
-Method yang mewadahi input dan output ini dapat ditemukan di class GamePlay pada method
-inputScoreMain dan outputScoreMain
+Lokasi file: class GamePlay > method inputScoreMain & method outputScoreMain
+https://github.com/nabilaaidah/FP_OOP-B/blob/2b328c0b3721ad5310e21e6174db7a15057084df/FinalProjectPBO2022/src/main/java/FinalProjectPBO/GamePlay.java
 ```
 
 
