@@ -14,7 +14,8 @@ NRP   : 5025211032
 ===Berikut merupakan salah beberapa contoh dari daftar materi OOP yang terdapat di FP yang telah saya buat/modifikasi===
 
 
-```Casting/Conversion
+```
+Casting/Conversion
 Pada class GamePlay dan di dalam method inputScoreMain, terdapat casting data score dari
 yang awalnya bertipekan data double menjadi integer, casting ini dilakukan dengan menambahkan
 (int) di depan getScore
@@ -102,7 +103,6 @@ inputScoreMain dan outputScoreMain
 3. https://github.com/tatemandel/tron
 4. https://github.com/Overv/BoggleSaga
 5. https://github.com/mystor/cisc124-assn4-game
-
 ```
 
 ```Asset Sources```
