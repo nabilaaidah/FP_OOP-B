@@ -11,10 +11,10 @@ NRP   : 5025211032
 
 
 
-Berikut merupakan salah beberapa contoh dari daftar materi OOP yang terdapat di FP yang telah saya buat/modifikasi:
+===Berikut merupakan salah beberapa contoh dari daftar materi OOP yang terdapat di FP yang telah saya buat/modifikasi===
 
 
-Casting/Conversion
+```Casting/Conversion
 Pada class GamePlay dan di dalam method inputScoreMain, terdapat casting data score dari
 yang awalnya bertipekan data double menjadi integer, casting ini dilakukan dengan menambahkan
 (int) di depan getScore
@@ -85,7 +85,7 @@ sendiri digunakan pada class GamePlay untuk melakukan input dan output score.
 Input Output
 Input dan output pada FP ini dapat ditemukan dalam melakukan penulisan dan dibacakannya skor.
 Method yang mewadahi input dan output ini dapat ditemukan di class GamePlay pada method
-inputScoreMain dan outputScoreMain
+inputScoreMain dan outputScoreMain```
 
 
 
@@ -106,7 +106,7 @@ inputScoreMain dan outputScoreMain
 
 ```Asset Sources```
 ```
-1. https://www.pngkit.com/png/full/398-3984980_pixel-mouse-png.png
-2. https://www.pngitem.com/pimgs/m/259-2598654_cat-pixel-art-png-download-simple-cat-pixel.png
-3. https://i.pinimg.com/564x/ce/ef/5b/ceef5b4e92d1cc73e0468e495b70c131.jpg
+1. Mouse: https://www.pngkit.com/png/full/398-3984980_pixel-mouse-png.png
+2. Cat: https://www.pngitem.com/pimgs/m/259-2598654_cat-pixel-art-png-download-simple-cat-pixel.png
+3. Brick: https://i.pinimg.com/564x/ce/ef/5b/ceef5b4e92d1cc73e0468e495b70c131.jpg
 ```
